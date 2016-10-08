@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-th",
+  "description": "The most comprehensive collection of stopwords for the thai language.",
+  "keywords": [
+    "thai",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-th",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-th.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}

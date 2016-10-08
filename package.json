@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-th",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the thai language.",
+  "keywords": [
+    "thai",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-th",
+  "bugs": "https://github.com/stopwords-iso/stopwords-th/issues",
+  "main": "stopwords-th.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-th",
+    "test": "npm run build && jsonlint stopwords-th.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}
